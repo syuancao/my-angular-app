@@ -6,28 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-angular-app';
-  count: number = 0
-  threshold: number = 10
-  showCounterButton: boolean = true
+  // title = 'my-angular-app';
+  // count: number = 0
+  // threshold: number = 10
+  // showCounterButton: boolean = true
 
-  // doSomething(): void {
-  //   alert('Doing something...')
+  // // doSomething(): void {
+  // //   alert('Doing something...')
+  // // }
+
+  // // doSomethingElse(): void {
+  // //   alert('Doing something else...')
+  // // }
+
+  // // doAnotherThing(): void {
+  // //   alert('Doing another thing...')
+  // // }
+
+  // incrementCount(): void {
+  //   this.count += 1
   // }
 
-  // doSomethingElse(): void {
-  //   alert('Doing something else...')
+  // toggleCounterButton(): void {
+  //   this.showCounterButton = !this.showCounterButton
   // }
-
-  // doAnotherThing(): void {
-  //   alert('Doing another thing...')
-  // }
-
-  incrementCount(): void {
-    this.count += 1
-  }
-
-  toggleCounterButton(): void {
-    this.showCounterButton = !this.showCounterButton
-  }
 }
